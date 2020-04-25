@@ -7,3 +7,6 @@
 - DMux
 - Not16
 - And16
+- Or16
+- Mux16
+- Or8way
