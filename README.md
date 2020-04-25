@@ -10,3 +10,7 @@
 - Or16
 - Mux16
 - Or8way
+- Mux4Way16
+- Mux8Way16
+- DMux4Way
+- DMux8Way

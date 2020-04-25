@@ -1,0 +1,15 @@
+CHIP Mux4Way {
+    IN a, b, c, d, sel[2];
+    OUT out;
+    PARTS:
+    Not(in=sel[0], out=nsel0);
+    Not(in=sel[1], out=nsel1);
+    And(a=in, b=nsel0, out=ansel0);
+    And(a=ansel0, b=nsel1, out=a);
+    And(a=in, b=nsel1, out=bnsel1);
+    And(a=bnsel1, b=sel[0], out=b);
+    And(a=in, b=sel[1], out=csel1);
+    And(a=csel1, b=nsel0, out=c);
+    And(a=in, b=sel[0], out=dsel0);
+    And(a=dsel0, b=sel[1], out=d);
+}
