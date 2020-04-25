@@ -1,6 +1,6 @@
 output-file DMux.out,
 load DMux.hdl,
-output-list a b,
+output-list in sel a b,
 set sel 0, set in 0,
 eval, output,
 set sel 0, set in 1,
