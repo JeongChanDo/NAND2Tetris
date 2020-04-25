@@ -5,3 +5,5 @@
 - Nand
 - Mux
 - DMux
+- Not16
+- And16
