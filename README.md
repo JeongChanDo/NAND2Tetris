@@ -14,3 +14,10 @@
 - Mux8Way16
 - DMux4Way
 - DMux8Way
+
+### 2020.04.28
+- HalfAdder
+- FullAdder
+- Add16
+- inc16
+- ALU
